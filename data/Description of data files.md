@@ -1,6 +1,6 @@
 ## Description of data files
 
-Sp_clim.RData: a named list of 356 data.frames (i.e. one for each extant hummingbird species). Each data.frame contains two principal component axes used to characterize a species climate volume. The principal component analysis includes the variation in mean annual temperature, mean annual precipitation, annual temperature seasonality (standard deviation \times 100), and annual precipitation seasonality (coefficient of variation). All climate data were downloaded from the CHELSA climate database (https://chelsa-climate.org; Karger et al., 2017).
+Sp_clim.RData: a named list of 356 data.frames (i.e. one for each extant hummingbird species). Each data.frame contains two principal component axes used to characterize a species climate volume. The principal component analysis includes the variation in mean annual temperature, mean annual precipitation, annual temperature seasonality (standard deviation * 100), and annual precipitation seasonality (coefficient of variation). All climate data were downloaded from the CHELSA climate database (https://chelsa-climate.org; Karger et al., 2017).
 
 
 **pca.RData**: prcomp data object containing the principal components analysis performed on the contemporary climate data
