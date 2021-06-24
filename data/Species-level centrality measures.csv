@@ -1,0 +1,679 @@
+Species;Closeness centrality;Betweenness centrality;Network_name
+Selasphorus platycercus;1.698630137;0;1_alarcon_co.csv
+Selasphorus rufus;0.301369863;0;1_alarcon_co.csv
+Selasphorus rufus;1.465437788;0;2_alarcon_ca.csv
+Selasphorus calliope;0.534562212;0;2_alarcon_ca.csv
+Eugenes fulgens;1.25;0;4_Ortiz-Pulido_pino-ensino.csv
+Basilinna leucotis;0.75;0;4_Ortiz-Pulido_pino-ensino.csv
+Eugenes fulgens;0.171428571;0;5_Ortiz-Pulido_bosques.csv
+Basilinna leucotis;0.534857143;0;5_Ortiz-Pulido_bosques.csv
+Lampornis clemenciae;0.587755102;1;5_Ortiz-Pulido_bosques.csv
+Amazilia violiceps;0.060810811;0;6_Ortiz-Pulido_matorral.csv
+Calothorax lucifer;0.107142857;0;6_Ortiz-Pulido_matorral.csv
+Cynanthus latirostris;0.118421053;1;6_Ortiz-Pulido_matorral.csv
+Calothorax lucifer;0.211115863;0;7_Ortiz-Pulido_pachuca.csv
+Colibri thalassinus;0.085117882;0;7_Ortiz-Pulido_pachuca.csv
+Cynanthus latirostris;0.125729681;0;7_Ortiz-Pulido_pachuca.csv
+Eugenes fulgens;0.125729681;0;7_Ortiz-Pulido_pachuca.csv
+Basilinna leucotis;0.25892903;1;7_Ortiz-Pulido_pachuca.csv
+Lampornis clemenciae;0.128244275;0;7_Ortiz-Pulido_pachuca.csv
+Amazilia rutila;0.787831565;1;8_arizmendi.csv
+Chlorostilbon auriceps;0.246384163;0;8_arizmendi.csv
+Cynanthus latirostris;0.20687158;0;8_arizmendi.csv
+Heliomaster constantii;0.161698903;0;8_arizmendi.csv
+Amazilia candida;0.110506216;0;9_ornelas.csv
+Amazilia cyanocephala;0.138034019;0.52173913;9_ornelas.csv
+Amazilia yucatanensis;0.075607299;0;9_ornelas.csv
+Anthracothorax prevostii;0.058160995;0;9_ornelas.csv
+Atthis heloisa;0.137631641;0.173913043;9_ornelas.csv
+Campylopterus curvipennis;0.06172199;0;9_ornelas.csv
+Campylopterus hemileucurus;0.054498097;0;9_ornelas.csv
+Colibri thalassinus;0.101407851;0;9_ornelas.csv
+Eugenes fulgens;0.068824916;0;9_ornelas.csv
+Lampornis amethystinus;0.056036745;0;9_ornelas.csv
+Lamprolaima rhami;0.04894583;0;9_ornelas.csv
+Amazilia beryllina;0.102192962;0.304347826;9_ornelas.csv
+Amazilia candida;0.097669256;0;10_lara3.csv
+Amazilia cyanocephala;0.095609965;0;10_lara3.csv
+Amazilia yucatanensis;0.077107308;0;10_lara3.csv
+Anthracothorax prevostii;0.109877913;0;10_lara3.csv
+Atthis heloisa;0.109877913;0;10_lara3.csv
+Campylopterus curvipennis;0.103304021;0;10_lara3.csv
+Campylopterus hemileucurus;0.085460599;0;10_lara3.csv
+Colibri thalassinus;0.073251942;0;10_lara3.csv
+Eugenes fulgens;0.097669256;0;10_lara3.csv
+Lampornis amethystinus;0.140623275;0;10_lara3.csv
+Amazilia beryllina;0.097669256;0;10_lara3.csv
+Calothorax lucifer;0.069570388;0;11_lara2.csv
+Cynanthus latirostris;0.2382134;0.5;11_lara2.csv
+Eugenes fulgens;0.202098717;0;11_lara2.csv
+Basilinna leucotis;0.266678507;0.5;11_lara2.csv
+Amazilia beryllina;0.140762463;0;11_lara2.csv
+Calothorax lucifer;0.015801695;0;12_lara1.csv
+Colibri thalassinus;0.182454207;0;12_lara1.csv
+Eugenes fulgens;0.196634754;0;12_lara1.csv
+Basilinna leucotis;0.28461721;1;12_lara1.csv
+Lampornis amethystinus;0.008104707;0;12_lara1.csv
+Lampornis clemenciae;0.189844245;0;12_lara1.csv
+Amazilia brevirostris;0.110978288;0.014705882;20_snow72.csv
+Amazilia tobaci;0.180136502;0.838235294;20_snow72.csv
+Anthracothorax nigricollis;0.047438799;0;20_snow72.csv
+Chlorestes notata;0.103431474;0;20_snow72.csv
+Chrysolampis mosquitus;0.046701288;0;20_snow72.csv
+Florisuga mellivora;0.04343894;0;20_snow72.csv
+Glaucis hirsutus;0.165368181;0;20_snow72.csv
+Phaethornis guy;0.159852829;0;20_snow72.csv
+Phaethornis longuemareus;0.175176122;0.147058824;20_snow72.csv
+Amazilia tzacatl;0.122540322;0.323529412;21_mang50.csv
+Florisuga mellivora;NA;0;21_mang50.csv
+Klais guimeti;0.044503757;0;21_mang50.csv
+Phaeochroa cuvierii;0.006342205;0;21_mang50.csv
+Phaethornis longirostris;0.044073193;0;21_mang50.csv
+Phaethornis striigularis;0.105679536;0.294117647;21_mang50.csv
+Thalurania colombica;0.106109542;0.382352941;21_mang50.csv
+Threnetes ruckeri;0.006439517;0;21_mang50.csv
+Doryfera ludovicae;0.114543652;0;22_mang1000.csv
+Eupherusa nigriventris;0.107071261;0.205128205;22_mang1000.csv
+Eutoxeres aquila;NA;0;22_mang1000.csv
+Heliodoxa jacula;0.016070564;0;22_mang1000.csv
+Lampornis calolaemus;0.030135633;0;22_mang1000.csv
+Lampornis hemileucus;0.102574729;0.256410256;22_mang1000.csv
+Phaethornis guy;0.177234679;0.538461538;22_mang1000.csv
+Phaethornis striigularis;0.043064074;0;22_mang1000.csv
+Campylopterus hemileucurus;0.054342375;0;23_mang2000.csv
+Doryfera ludovicae;0.033015225;0;23_mang2000.csv
+Eugenes spectabilis;0.006973904;0;23_mang2000.csv
+Heliodoxa jacula;0.021123944;0;23_mang2000.csv
+Lampornis calolaemus;0.079297126;0.492957746;23_mang2000.csv
+Panterpe insignis;0.057797918;0.14084507;23_mang2000.csv
+Phaethornis guy;0.045297062;0.169014085;23_mang2000.csv
+Selasphorus flammula;0.04943595;0.197183099;23_mang2000.csv
+Selasphorus scintilla;0.016981895;0;23_mang2000.csv
+Colibri cyanotus;0.252686123;0;24_wolf1.csv
+Eugenes spectabilis;0.194650828;0;24_wolf1.csv
+Panterpe insignis;0.619998781;0.6;24_wolf1.csv
+Selasphorus flammula;0.362148185;0.4;24_wolf1.csv
+Colibri cyanotus;0.044722719;0;25_wolf2.csv
+Eugenes spectabilis;0.050403226;0;25_wolf2.csv
+Lampornis cinereicauda;0.061332327;0;25_wolf2.csv
+Panterpe insignis;0.071633238;0.625;25_wolf2.csv
+Selasphorus flammula;0.063938619;0.375;25_wolf2.csv
+Amazilia cyanifrons;0.107364675;0;26_snow803.csv
+Amazilia franciae;0.112782462;0.588235294;26_snow803.csv
+Amazilia tzacatl;0.137521188;0.411764706;26_snow803.csv
+Anthracothorax nigricollis;0.079732202;0;26_snow803.csv
+Chlorostilbon gibsoni;0.093746089;0;26_snow803.csv
+Phaethornis guy;0.041041653;0;26_snow803.csv
+Adelomyia melanogenys;0.093724947;0.118811881;27_snow802.csv
+Aglaiocercus kingii;0.024108463;0;27_snow802.csv
+Boissonneaua flavescens;0.103030415;0.069306931;27_snow802.csv
+Chaetocercus mulsant;0.016528791;0;27_snow802.csv
+Chlorostilbon poortmani;0.076303465;0;27_snow802.csv
+Coeligena prunellei;0.061274911;0.158415842;27_snow802.csv
+Coeligena torquata;0.031843058;0;27_snow802.csv
+Colibri coruscans;0.145082751;0.02970297;27_snow802.csv
+Colibri cyanotus;0.13898889;0.04950495;27_snow802.csv
+Doryfera ludovicae;0.044065789;0.01980198;27_snow802.csv
+Heliangelus clarisse;0.129739264;0.554455446;27_snow802.csv
+Ocreatus underwoodii;0.042643068;0;27_snow802.csv
+Amazilia saucerottei;0.224019732;0.285714286;28_Quindio_2_Uni.csv
+Amazilia tzacatl;0.238140101;0.714285714;28_Quindio_2_Uni.csv
+Anthracothorax nigricollis;0.160747149;0;28_Quindio_2_Uni.csv
+Chlorostilbon melanorhynchus;0.158162123;0;28_Quindio_2_Uni.csv
+Heliomaster longirostris;0.133614627;0;28_Quindio_2_Uni.csv
+Phaethornis guy;0.081998816;0;28_Quindio_2_Uni.csv
+Chlorostilbon poortmani;0.01581066;0;29_snow801.csv
+Coeligena helianthea;0.121315691;0;29_snow801.csv
+Ensifera ensifera;NA;0;29_snow801.csv
+Eriocnemis cupreoventris;0.136968776;0;29_snow801.csv
+Eriocnemis vestita;0.091091762;0;29_snow801.csv
+Heliangelus clarisse;0.139316812;0;29_snow801.csv
+Lafresnaya lafresnayi;0.156504881;0;29_snow801.csv
+Lesbia nuna;0.087206541;0;29_snow801.csv
+Metallura tyrianthina;0.410620559;1;29_snow801.csv
+Adelomyia melanogenys;0.01832315;0;30_Quindio_1_coffee.csv
+Aglaiocercus kingii;0.08325567;0;30_Quindio_1_coffee.csv
+Amazilia franciae;0.042077173;0;30_Quindio_1_coffee.csv
+Amazilia saucerottei;0.179909771;0.217391304;30_Quindio_1_coffee.csv
+Amazilia tzacatl;0.060506725;0;30_Quindio_1_coffee.csv
+Anthracothorax nigricollis;0.044753696;0;30_Quindio_1_coffee.csv
+Boissonneaua flavescens;0.136582043;0.144927536;30_Quindio_1_coffee.csv
+Coeligena coeligena;0.03365937;0;30_Quindio_1_coffee.csv
+Colibri coruscans;0.276828943;0.637681159;30_Quindio_1_coffee.csv
+Doryfera ludovicae;0.011625101;0;30_Quindio_1_coffee.csv
+Florisuga mellivora;0.024614027;0;30_Quindio_1_coffee.csv
+Ocreatus underwoodii;0.198781422;0;30_Quindio_1_coffee.csv
+Phaethornis guy;0.019389452;0;30_Quindio_1_coffee.csv
+Adelomyia melanogenys;0.021645022;0;31_Charguayaco.csv
+Boissonneaua flavescens;0.021551724;0;31_Charguayaco.csv
+Coeligena torquata;0.149253731;0.361702128;31_Charguayaco.csv
+Eriocnemis mirabilis;0.159680639;0.510638298;31_Charguayaco.csv
+Haplophaedia aureliae;0.09163803;0;31_Charguayaco.csv
+Heliangelus exortis;0.0220022;0;31_Charguayaco.csv
+Metallura tyrianthina;0.117474302;0.127659574;31_Charguayaco.csv
+Phaethornis syrmatophorus;0.037735849;0;31_Charguayaco.csv
+Adelomyia melanogenys;0.017631579;0;32_Veinte de Julio.csv
+Aglaiocercus coelestis;0.095032908;0.238095238;32_Veinte de Julio.csv
+Aglaiocercus kingii;0.018660196;0;32_Veinte de Julio.csv
+Boissonneaua flavescens;0.079132973;0.19047619;32_Veinte de Julio.csv
+Calliphlox mitchellii;0.03138758;0;32_Veinte de Julio.csv
+Coeligena torquata;0.083723242;0.104761905;32_Veinte de Julio.csv
+Coeligena wilsoni;0.047865723;0;32_Veinte de Julio.csv
+Doryfera ludovicae;0.030972826;0;32_Veinte de Julio.csv
+Ensifera ensifera;0.018660196;0;32_Veinte de Julio.csv
+Eriocnemis mirabilis;0.040857551;0;32_Veinte de Julio.csv
+Haplophaedia aureliae;0.104820189;0.428571429;32_Veinte de Julio.csv
+Heliangelus exortis;0.064642035;0;32_Veinte de Julio.csv
+Metallura tyrianthina;0.080832177;0.038095238;32_Veinte de Julio.csv
+Ocreatus underwoodii;0.017631579;0;32_Veinte de Julio.csv
+Aglaeactis cupripennis;0.029091448;0.230769231;33_gutierrez.csv
+Chalcostigma herrani;0.023226999;0;33_gutierrez.csv
+Coeligena lutetiae;0.010717562;0;33_gutierrez.csv
+Ensifera ensifera;0.011871609;0;33_gutierrez.csv
+Eriocnemis derbyi;0.025506767;0;33_gutierrez.csv
+Eriocnemis mosquera;0.029381882;0.769230769;33_gutierrez.csv
+Lafresnaya lafresnayi;0.022396551;0;33_gutierrez.csv
+Metallura tyrianthina;0.025746015;0;33_gutierrez.csv
+Pterophanes cyanopterus;0.027412749;0;33_gutierrez.csv
+Phaethornis bourcieri;0.084252535;0.761904762;34_Lasprilla .csv
+Phaethornis malaris;0.079736056;0.238095238;34_Lasprilla .csv
+Phaethornis ruber;0.047974119;0;34_Lasprilla .csv
+Amazilia versicolor;0.004089218;0;34_Lasprilla .csv
+Thalurania furcata;0.072355768;0;34_Lasprilla .csv
+Chlorostilbon olivaresi;0.064073007;0;34_Lasprilla .csv
+Topaza pyra;0.003988684;0;34_Lasprilla .csv
+Florisuga mellivora;0.003988684;0;34_Lasprilla .csv
+Adelomyia melanogenys;0.001726539;0;35_walther&brieschke.csv
+Aglaiocercus coelestis;0.135838444;0;35_walther&brieschke.csv
+Amazilia franciae;0.04077009;0;35_walther&brieschke.csv
+Amazilia tzacatl;0.154675564;0.164705882;35_walther&brieschke.csv
+Boissonneaua flavescens;0.00173337;0;35_walther&brieschke.csv
+Boissonneaua jardini;0.060086122;0;35_walther&brieschke.csv
+Calliphlox mitchellii;0.023265531;0;35_walther&brieschke.csv
+Coeligena wilsoni;0.099743078;0.276470588;35_walther&brieschke.csv
+Colibri coruscans;0.032433101;0;35_walther&brieschke.csv
+Colibri delphinae;0.182796424;0.117647059;35_walther&brieschke.csv
+Colibri cyanotus;0.001739523;0;35_walther&brieschke.csv
+Doryfera ludovicae;0.038067116;0;35_walther&brieschke.csv
+Florisuga mellivora;0.00087048;0;35_walther&brieschke.csv
+Heliodoxa imperatrix;0.004286864;0;35_walther&brieschke.csv
+Heliodoxa rubinoides;0.031628132;0;35_walther&brieschke.csv
+Ocreatus underwoodii;0.155847113;0.441176471;35_walther&brieschke.csv
+Phaethornis syrmatophorus;0.029123635;0;35_walther&brieschke.csv
+Thalurania colombica;0.002607132;0;35_walther&brieschke.csv
+Urosticte benjamini;0.059626915;0;35_walther&brieschke.csv
+Chaetocercus mulsant;0.004129601;0;36_Boris_shrub.csv
+Coeligena iris;0.0109398;0.165289256;36_Boris_shrub.csv
+Colibri coruscans;0.009549729;0;36_Boris_shrub.csv
+Ensifera ensifera;0.003153382;0;36_Boris_shrub.csv
+Eriocnemis luciani;0.016076555;0.388429752;36_Boris_shrub.csv
+Heliangelus viola;0.00717683;0;36_Boris_shrub.csv
+Lafresnaya lafresnayi;0.014014898;0;36_Boris_shrub.csv
+Lesbia victoriae;0.001633154;0;36_Boris_shrub.csv
+Metallura baroni;0.008965823;0;36_Boris_shrub.csv
+Metallura tyrianthina;0.015878015;0.446280992;36_Boris_shrub.csv
+Pterophanes cyanopterus;0.013864516;0;36_Boris_shrub.csv
+Ramphomicron microrhynchum;0.004143887;0;36_Boris_shrub.csv
+Coeligena iris;0.154155475;0;37_Boris_forest.csv
+Colibri coruscans;0.097088618;0;37_Boris_forest.csv
+Ensifera ensifera;NA;0;37_Boris_forest.csv
+Eriocnemis luciani;0.11126285;0;37_Boris_forest.csv
+Heliangelus viola;0.11313074;0;37_Boris_forest.csv
+Lafresnaya lafresnayi;0.223485733;0;37_Boris_forest.csv
+Metallura tyrianthina;0.352627319;1;37_Boris_forest.csv
+Pterophanes cyanopterus;0.06566377;0;37_Boris_forest.csv
+Aglaeactis cupripennis;0.054868148;0.318181818;38_Boris_cattle.csv
+Coeligena iris;0.035012202;0;38_Boris_cattle.csv
+Colibri coruscans;0.007697256;0;38_Boris_cattle.csv
+Eriocnemis luciani;0.047142215;0.318181818;38_Boris_cattle.csv
+Heliangelus viola;0.007438085;0;38_Boris_cattle.csv
+Lafresnaya lafresnayi;0.005371246;0;38_Boris_cattle.csv
+Lesbia nuna;0.002686318;0;38_Boris_cattle.csv
+Metallura tyrianthina;0.053393453;0.363636364;38_Boris_cattle.csv
+Pterophanes cyanopterus;0.005143413;0;38_Boris_cattle.csv
+Glaucis hirsutus;0.033940318;0.36;39_Cotton.csv
+Threnetes leucurus;0.010995368;0;39_Cotton.csv
+Phaethornis superciliosus;0.028433118;0.01;39_Cotton.csv
+Phaethornis hispidus;0.027307494;0;39_Cotton.csv
+Phaethornis bourcieri;0.024007154;0;39_Cotton.csv
+Phaethornis ruber;0.0062674;0;39_Cotton.csv
+Campylopterus largipennis;0.021023665;0;39_Cotton.csv
+Florisuga mellivora;0.034660574;0;39_Cotton.csv
+Anthracothorax nigricollis;0.02926598;0;39_Cotton.csv
+Chlorestes notata;0.014672205;0;39_Cotton.csv
+Chlorostilbon mellisugus;0.016276528;0;39_Cotton.csv
+Thalurania furcata;0.028890308;0.175;39_Cotton.csv
+Chrysuronia oenone;0.022111176;0;39_Cotton.csv
+Amazilia fimbriata;0.0396894;0.455;39_Cotton.csv
+Heliodoxa aurescens;0.008300109;0;39_Cotton.csv
+Chlorostilbon lucidus;1.013562631;1;40_casas.csv
+Eupetomena macroura;0.150361709;0;40_casas.csv
+Heliomaster squamosus;0.066230743;0;40_casas.csv
+Chrysolampis mosquitus;0.008451551;0;40_casas.csv
+Calliphlox amethystina;0.007791241;0;40_casas.csv
+Amazilia fimbriata;0.13000936;0;41_cerqueira.csv
+Amazilia lactea;0.007091642;0;41_cerqueira.csv
+Chlorostilbon lucidus;0.467256146;0.853658537;41_cerqueira.csv
+Chrysolampis mosquitus;0.00414275;0;41_cerqueira.csv
+Eupetomena macroura;0.092582743;0;41_cerqueira.csv
+Heliomaster squamosus;0.00441862;0;41_cerqueira.csv
+Anopetia gounellei;0.047640204;0;41_cerqueira.csv
+Phaethornis pretrei;0.049005728;0.146341463;41_cerqueira.csv
+Anthracothorax nigricollis;0.342298126;0.666666667;42_watts-tambo.csv
+Campylopterus largipennis;0.038893022;0;42_watts-tambo.csv
+Florisuga mellivora;0.07302824;0;42_watts-tambo.csv
+Glaucis hirsutus;0.047126173;0;42_watts-tambo.csv
+Phaethornis hispidus;0.053295831;0;42_watts-tambo.csv
+Phaethornis ruber;0.092987385;0.166666667;42_watts-tambo.csv
+Thalurania furcata;0.320666;0.166666667;42_watts-tambo.csv
+Threnetes leucurus;0.020491231;0;42_watts-tambo.csv
+Amazilia lactea;0.079825999;0;43_machado07.csv
+Augastes lumachella;0.006729675;0;43_machado07.csv
+Calliphlox amethystina;0.056326979;0;43_machado07.csv
+Chlorostilbon lucidus;0.550988123;1;43_machado07.csv
+Chrysolampis mosquitus;0.152927518;0;43_machado07.csv
+Colibri serrirostris;0.186106689;0;43_machado07.csv
+Phaethornis pretrei;0.145720718;0;43_machado07.csv
+Amazilia lactea;0.123294269;0.5;44_machado09caatinga.csv
+Chlorostilbon lucidus;0.121516552;0.416666667;44_machado09caatinga.csv
+Chrysolampis mosquitus;0.074583453;0;44_machado09caatinga.csv
+Colibri serrirostris;0.008653959;0;44_machado09caatinga.csv
+Eupetomena macroura;0.013814219;0;44_machado09caatinga.csv
+Anopetia gounellei;0.0716918;0;44_machado09caatinga.csv
+Phaethornis pretrei;0.10521486;0.083333333;44_machado09caatinga.csv
+Calliphlox amethystina;0.011445049;0;45_machado09savannah.csv
+Chlorostilbon lucidus;0.144809575;0;45_machado09savannah.csv
+Chrysolampis mosquitus;0.005795734;0;45_machado09savannah.csv
+Colibri serrirostris;0.168032801;0.368421053;45_machado09savannah.csv
+Eupetomena macroura;0.03187884;0;45_machado09savannah.csv
+Heliactin bilophus;0.141862131;0.526315789;45_machado09savannah.csv
+Anopetia gounellei;0.161112383;0.105263158;45_machado09savannah.csv
+Phaethornis pretrei;0.002921954;0;45_machado09savannah.csv
+Aglaeactis castelnaudii;0.056426332;0;46_watts_chicon.csv
+Aglaeactis cupripennis;0.102272727;0.363636364;46_watts_chicon.csv
+Colibri coruscans;0.059504132;0;46_watts_chicon.csv
+Oreonympha nobilis;0.037190083;0;46_watts_chicon.csv
+Oreotrochilus estella;0.038502674;0;46_watts_chicon.csv
+Pterophanes cyanopterus;0.088452088;0.636363636;46_watts_chicon.csv
+Amazilia leucogaster;0.027034129;0;47_coelho.csv
+Aphantochroa cirrochloris;0.027979961;0.275229358;47_coelho.csv
+Chlorestes notata;0.023655938;0;47_coelho.csv
+Chrysolampis mosquitus;0.008332464;0;47_coelho.csv
+Eupetomena macroura;0.014537725;0;47_coelho.csv
+Glaucis dohrnii;0.001373636;0;47_coelho.csv
+Glaucis hirsutus;0.024216174;0.100917431;47_coelho.csv
+Heliothryx auritus;0.002016493;0;47_coelho.csv
+Hylocharis cyanus;0.004775193;0;47_coelho.csv
+Phaethornis malaris;0.001421983;0;47_coelho.csv
+Phaethornis pretrei;0.011892617;0;47_coelho.csv
+Phaethornis ruber;0.026517582;0.623853211;47_coelho.csv
+Thalurania glaucopis;0.020638438;0;47_coelho.csv
+Thalurania furcata;0.37037037;1;48_stefan_tun.csv
+Phaethornis malaris;0.222222222;0;48_stefan_tun.csv
+Phaethornis ruber;0.202020202;0;48_stefan_tun.csv
+Anthracothorax nigricollis;0.077586207;0.444444444;49_stefan_bv.csv
+Campylopterus largipennis;0.09127789;0.111111111;49_stefan_bv.csv
+Hylocharis cyanus;0.085612366;0;49_stefan_bv.csv
+Phaethornis stuarti;0.138960371;0;49_stefan_bv.csv
+Phaethornis subochraceus;0.048491379;0;49_stefan_bv.csv
+Thalurania furcata;0.122045719;0.444444444;49_stefan_bv.csv
+Amazilia fimbriata;0.118174855;0;50_maruyama_pescan.csv
+Calliphlox amethystina;0.045566834;0;50_maruyama_pescan.csv
+Chlorostilbon lucidus;0.198728164;0.454545455;50_maruyama_pescan.csv
+Chrysolampis mosquitus;0.14968815;0;50_maruyama_pescan.csv
+Colibri serrirostris;0.164794293;0.227272727;50_maruyama_pescan.csv
+Eupetomena macroura;0.165947669;0.318181818;50_maruyama_pescan.csv
+Heliactin bilophus;0.047749348;0;50_maruyama_pescan.csv
+Lophornis magnificus;0.093555094;0;50_maruyama_pescan.csv
+Thalurania furcata;0.085711006;0;50_maruyama_pescan.csv
+Amazilia fimbriata;0.260286472;0.727272727;51_maruyama_ccpiu.csv
+Calliphlox amethystina;0.015251341;0;51_maruyama_ccpiu.csv
+Chlorostilbon lucidus;0.137855243;0.090909091;51_maruyama_ccpiu.csv
+Colibri serrirostris;0.103975358;0;51_maruyama_ccpiu.csv
+Eupetomena macroura;0.162232781;0.181818182;51_maruyama_ccpiu.csv
+Heliomaster squamosus;0.139975196;0;51_maruyama_ccpiu.csv
+Hylocharis chrysura;0.012872553;0;51_maruyama_ccpiu.csv
+Phaethornis pretrei;0.06409327;0;51_maruyama_ccpiu.csv
+Amazilia fimbriata;0.120001549;0;52_maruyama_panga.csv
+Chlorostilbon lucidus;0.187075919;0.285714286;52_maruyama_panga.csv
+Colibri serrirostris;0.113918691;0;52_maruyama_panga.csv
+Eupetomena macroura;0.171176844;0.238095238;52_maruyama_panga.csv
+Heliomaster squamosus;0.010013647;0;52_maruyama_panga.csv
+Lophornis magnificus;0.012169028;0;52_maruyama_panga.csv
+Phaethornis pretrei;0.129575383;0.333333333;52_maruyama_panga.csv
+Thalurania furcata;0.148054228;0.142857143;52_maruyama_panga.csv
+Augastes scutatus;0.108216249;0.4;53_rodrigues_rupestre.csv
+Campylopterus calcirupicola;0.244724637;0.5;53_rodrigues_rupestre.csv
+Phaethornis pretrei;0.175414365;0.1;53_rodrigues_rupestre.csv
+Colibri serrirostris;0.199366354;0;53_rodrigues_rupestre.csv
+Eupetomena macroura;0.067785971;0;53_rodrigues_rupestre.csv
+Chlorostilbon lucidus;0.100612525;0;53_rodrigues_rupestre.csv
+Hylocharis chrysura;0.138742641;1;54_araujo_pantanal.csv
+Polytmus guainumbi;0.027117031;0;54_araujo_pantanal.csv
+Eupetomena macroura;0.120547837;0;54_araujo_pantanal.csv
+Phaethornis eurynome;0.013122053;0;54_araujo_pantanal.csv
+Colibri serrirostris;0.051912821;1;55_vasconcelos.csv
+Chlorostilbon lucidus;0.036790386;0;55_vasconcelos.csv
+Amazilia lactea;0.045666842;0;55_vasconcelos.csv
+Phaethornis pretrei;0.004991454;0;55_vasconcelos.csv
+Eupetomena macroura;0.004606658;0;55_vasconcelos.csv
+Florisuga fusca;0.004638004;0;55_vasconcelos.csv
+Amazilia fimbriata;0.05161978;0;56_rodrigues_cerrado.csv
+Anthracothorax nigricollis;0.284991146;0.181818182;56_rodrigues_cerrado.csv
+Chlorostilbon lucidus;0.156095959;0;56_rodrigues_cerrado.csv
+Eupetomena macroura;0.043840809;0;56_rodrigues_cerrado.csv
+Florisuga fusca;0.064576466;0;56_rodrigues_cerrado.csv
+Hylocharis chrysura;0.352675642;0.818181818;56_rodrigues_cerrado.csv
+Thalurania furcata;0.070917449;0;56_rodrigues_cerrado.csv
+Amazilia fimbriata;0.001879802;0;57_Barbosa_UFMS.csv
+Anthracothorax nigricollis;0.003139566;0.047619048;57_Barbosa_UFMS.csv
+Chlorostilbon lucidus;0.003127527;0.19047619;57_Barbosa_UFMS.csv
+Eupetomena macroura;0.003082762;0.238095238;57_Barbosa_UFMS.csv
+Heliomaster squamosus;0.000659996;0;57_Barbosa_UFMS.csv
+Hylocharis chrysura;0.003143653;0.523809524;57_Barbosa_UFMS.csv
+Thalurania furcata;0.002743818;0;57_Barbosa_UFMS.csv
+Phaethornis ruber;0.084123986;0.055555556;58_abreu.csv
+Phaethornis squalidus;0.093163368;0.611111111;58_abreu.csv
+Thalurania glaucopis;0.108492948;0.333333333;58_abreu.csv
+Phaethornis pretrei;0.017883756;0;58_abreu.csv
+Chlorostilbon lucidus;0.034403079;0;58_abreu.csv
+Calliphlox amethystina;0.036620424;0;58_abreu.csv
+Amazilia fimbriata;0.01000834;0;58_abreu.csv
+Amazilia lactea;0.010024632;0;58_abreu.csv
+Amazilia fimbriata;1.894736842;0;59_Jurubatiba.csv
+Eupetomena macroura;0.105263158;0;59_Jurubatiba.csv
+Clytolaema rubricauda;0.053307249;0;60_canela.csv
+Leucochloris albicollis;0.060765517;0;60_canela.csv
+Phaethornis eurynome;0.17977336;0.4;60_canela.csv
+Phaethornis squalidus;0.136774146;0;60_canela.csv
+Thalurania glaucopis;0.219761397;0.6;60_canela.csv
+Chlorostilbon lucidus;0.011111111;0;61_sazima-buzato.csv
+Clytolaema rubricauda;0.139939378;0;61_sazima-buzato.csv
+Colibri serrirostris;NA;0;61_sazima-buzato.csv
+Leucochloris albicollis;0.165582556;1;61_sazima-buzato.csv
+Phaethornis eurynome;0.137218882;0;61_sazima-buzato.csv
+Stephanoxis lalandi;0.142360871;0;61_sazima-buzato.csv
+Amazilia versicolor;0.052073221;0;62_virginea.csv
+Clytolaema rubricauda;0.266730685;0.4;62_virginea.csv
+Eupetomena macroura;0.001114642;0;62_virginea.csv
+Florisuga fusca;0.046553595;0;62_virginea.csv
+Leucochloris albicollis;0.051419191;0;62_virginea.csv
+Lophornis chalybeus;0.012913684;0;62_virginea.csv
+Phaethornis eurynome;0.184227913;0.28;62_virginea.csv
+Stephanoxis lalandi;0.047613736;0;62_virginea.csv
+Thalurania glaucopis;0.241910445;0.32;62_virginea.csv
+Amazilia fimbriata;0.067848744;0;63_Cambuca.csv
+Amazilia versicolor;0.074857192;0.397058824;63_Cambuca.csv
+Calliphlox amethystina;0.02283734;0;63_Cambuca.csv
+Clytolaema rubricauda;0.008689587;0;63_Cambuca.csv
+Florisuga fusca;0.059182238;0;63_Cambuca.csv
+Glaucis hirsutus;0.065694038;0;63_Cambuca.csv
+Heliomaster squamosus;0.016140851;0;63_Cambuca.csv
+Hylocharis cyanus;0.030127102;0;63_Cambuca.csv
+Leucochloris albicollis;0.008689587;0;63_Cambuca.csv
+Phaethornis ruber;0.073430639;0.088235294;63_Cambuca.csv
+Phaethornis squalidus;0.045783044;0;63_Cambuca.csv
+Ramphodon naevius;0.100094487;0.514705882;63_Cambuca.csv
+Thalurania glaucopis;0.04926186;0;63_Cambuca.csv
+Amazilia fimbriata;0.052631579;0;64_Farinha.csv
+Amazilia versicolor;NA;0;64_Farinha.csv
+Phaethornis squalidus;0.052631579;0;64_Farinha.csv
+Ramphodon naevius;0.869349845;1;64_Farinha.csv
+Thalurania glaucopis;0.174692049;0;64_Farinha.csv
+Amazilia brevirostris;0.125095545;0.128440367;65_araujo.csv
+Amazilia fimbriata;0.101996122;0.394495413;65_araujo.csv
+Anthracothorax nigricollis;0.005824828;0;65_araujo.csv
+Eupetomena macroura;0.075395976;0;65_araujo.csv
+Florisuga fusca;0.093408864;0.018348624;65_araujo.csv
+Glaucis hirsutus;0.013599615;0;65_araujo.csv
+Hylocharis cyanus;0.120868835;0.229357798;65_araujo.csv
+Leucochloris albicollis;0.001911134;0;65_araujo.csv
+Lophornis chalybeus;0.001267523;0;65_araujo.csv
+Phaethornis ruber;0.006756688;0;65_araujo.csv
+Ramphodon naevius;0.05789192;0.091743119;65_araujo.csv
+Thalurania glaucopis;0.081795047;0.137614679;65_araujo.csv
+Amazilia fimbriata;0.043969264;0.661764706;66_Fazenda.csv
+Amazilia versicolor;0.042004753;0.073529412;66_Fazenda.csv
+Eupetomena macroura;0.00981972;0;66_Fazenda.csv
+Florisuga fusca;0.044345476;0.132352941;66_Fazenda.csv
+Glaucis hirsutus;0.006018643;0;66_Fazenda.csv
+Hylocharis cyanus;0.011935416;0;66_Fazenda.csv
+Lophornis chalybeus;0.005476066;0;66_Fazenda.csv
+Phaethornis ruber;0.038070653;0;66_Fazenda.csv
+Phaethornis squalidus;0.012651555;0.132352941;66_Fazenda.csv
+Ramphodon naevius;0.042442907;0;66_Fazenda.csv
+Thalurania glaucopis;0.041370662;0;66_Fazenda.csv
+Amazilia versicolor;0.083320994;0;67_snow86.csv
+Clytolaema rubricauda;0.217057053;0.454545455;67_snow86.csv
+Leucochloris albicollis;0.183510609;0.090909091;67_snow86.csv
+Florisuga fusca;0.198213202;0;67_snow86.csv
+Thalurania glaucopis;0.199899532;0.454545455;67_snow86.csv
+Phaethornis eurynome;0.109626039;0;67_snow86.csv
+Amazilia versicolor;0.027808822;0;68_Rocca_edited.csv
+Anthracothorax nigricollis;0.091181659;0.087719298;68_Rocca_edited.csv
+Aphantochroa cirrochloris;0.005594341;0;68_Rocca_edited.csv
+Chlorostilbon lucidus;0.015263497;0;68_Rocca_edited.csv
+Clytolaema rubricauda;0.005635514;0;68_Rocca_edited.csv
+Florisuga fusca;0.023344944;0;68_Rocca_edited.csv
+Leucochloris albicollis;0.005635514;0;68_Rocca_edited.csv
+Lophornis chalybeus;0.015459839;0;68_Rocca_edited.csv
+Phaethornis eurynome;0.005595785;0;68_Rocca_edited.csv
+Phaethornis squalidus;0.079355762;0;68_Rocca_edited.csv
+Ramphodon naevius;0.100894935;0.342105263;68_Rocca_edited.csv
+Thalurania glaucopis;0.104784333;0.570175439;68_Rocca_edited.csv
+Florisuga fusca;0.057212878;0;69_Fischer.csv
+Hylocharis cyanus;0.084092763;0;69_Fischer.csv
+Phaethornis eurynome;0.012366761;0;69_Fischer.csv
+Ramphodon naevius;0.095473258;0.3;69_Fischer.csv
+Thalurania glaucopis;0.098872226;0.7;69_Fischer.csv
+Amazilia fimbriata;0.043306077;0.082191781;70_Malucelli.csv
+Amazilia versicolor;0.020645573;0;70_Malucelli.csv
+Aphantochroa cirrochloris;0.010983666;0;70_Malucelli.csv
+Chlorostilbon lucidus;0.014121013;0;70_Malucelli.csv
+Florisuga fusca;0.028677785;0.095890411;70_Malucelli.csv
+Lophornis chalybeus;0.029672687;0;70_Malucelli.csv
+Phaethornis eurynome;0.02042531;0;70_Malucelli.csv
+Phaethornis squalidus;NA;0;70_Malucelli.csv
+Ramphodon naevius;0.119018628;0.356164384;70_Malucelli.csv
+Thalurania glaucopis;0.128757576;0.465753425;70_Malucelli.csv
+Amazilia versicolor;0.045522019;0;71_kohler3.csv
+Clytolaema rubricauda;0.246214221;0;71_kohler3.csv
+Stephanoxis loddigesii;0.149482566;1;71_kohler3.csv
+Thalurania glaucopis;0.271862949;0;71_kohler3.csv
+Amazilia versicolor;0.003815793;0;72_kohler2.csv
+Clytolaema rubricauda;0.015834792;0.5;72_kohler2.csv
+Phaethornis eurynome;0.011879988;0;72_kohler2.csv
+Thalurania glaucopis;0.015508809;0.5;72_kohler2.csv
+Amazilia fimbriata;0.045526477;0;73_kohler1.csv
+Amazilia versicolor;0.006757487;0;73_kohler1.csv
+Clytolaema rubricauda;0.061741017;0;73_kohler1.csv
+Phaethornis eurynome;0.05343105;0.166666667;73_kohler1.csv
+Ramphodon naevius;0.006725722;0;73_kohler1.csv
+Thalurania glaucopis;0.062562554;0.833333333;73_kohler1.csv
+Florisuga fusca;0.033054643;0;74_bugoni.csv
+Anthracothorax nigricollis;0.033419041;0;74_bugoni.csv
+Stephanoxis loddigesii;0.068496275;0;74_bugoni.csv
+Chlorostilbon lucidus;0.134555197;0;74_bugoni.csv
+Hylocharis chrysura;0.562149997;1;74_bugoni.csv
+Leucochloris albicollis;0.020264474;0;74_bugoni.csv
+Thalurania glaucopis;0.110262427;0;74_bugoni.csv
+Ocreatus peruanus;0.087118097;0;75_Bombuscaro_JS.csv
+Phlogophilus hemileucurus;0.195872167;0;75_Bombuscaro_JS.csv
+Thalurania furcata;0.215039143;0.555555556;75_Bombuscaro_JS.csv
+Doryfera ludovicae;0.345741249;0.222222222;75_Bombuscaro_JS.csv
+Phaethornis guy;0.191004207;0.222222222;75_Bombuscaro_JS.csv
+Heliodoxa leadbeateri;0.083325878;0;75_Bombuscaro_JS.csv
+Eutoxeres aquila;NA;NA;75_Bombuscaro_JS.csv
+Coeligena lutetiae;0.252748176;0.392857143;76_Cajanuma_JS.csv
+Boissonneaua matthewsii;0.017400363;0;76_Cajanuma_JS.csv
+Coeligena torquata;0.025668354;0;76_Cajanuma_JS.csv
+Eriocnemis vestita;0.112948799;0;76_Cajanuma_JS.csv
+Doryfera ludovicae;0.025891731;0;76_Cajanuma_JS.csv
+Heliangelus micraster;0.189367427;0.607142857;76_Cajanuma_JS.csv
+Lafresnaya lafresnayi;0.112969276;0;76_Cajanuma_JS.csv
+Metallura tyrianthina;0.138746217;0;76_Cajanuma_JS.csv
+Heliangelus amethysticollis;0.030906147;0;77_ECSF_JS.csv
+Ocreatus peruanus;0.061986585;0;77_ECSF_JS.csv
+Coeligena coeligena;0.106652735;0.72;77_ECSF_JS.csv
+Coeligena torquata;0.045259608;0;77_ECSF_JS.csv
+Doryfera ludovicae;0.050822457;0;77_ECSF_JS.csv
+Colibri cyanotus;0.051581874;0;77_ECSF_JS.csv
+Haplophaedia aureliae;0.057877773;0;77_ECSF_JS.csv
+Adelomyia melanogenys;0.098671897;0.28;77_ECSF_JS.csv
+Phaethornis syrmatophorus;0.060475177;0;77_ECSF_JS.csv
+Aglaeactis cupripennis;0.019151498;0.004807692;78_MatricesNoRobbers_OscarGonzalez.csv
+Coeligena torquata;0.014370254;0;78_MatricesNoRobbers_OscarGonzalez.csv
+Coeligena violifer;0.023697206;0;78_MatricesNoRobbers_OscarGonzalez.csv
+Ensifera ensifera;0.016091777;0;78_MatricesNoRobbers_OscarGonzalez.csv
+Heliangelus amethysticollis;0.009447104;0;78_MatricesNoRobbers_OscarGonzalez.csv
+Lafresnaya lafresnayi;0.016241174;0;78_MatricesNoRobbers_OscarGonzalez.csv
+Lesbia victoriae;0.014442658;0;78_MatricesNoRobbers_OscarGonzalez.csv
+Metallura theresiae;0.038982492;0.899038462;78_MatricesNoRobbers_OscarGonzalez.csv
+Metallura tyrianthina;0.014501046;0;78_MatricesNoRobbers_OscarGonzalez.csv
+Patagona gigas;0.023756613;0;78_MatricesNoRobbers_OscarGonzalez.csv
+Pterophanes cyanopterus;0.049164987;0.096153846;78_MatricesNoRobbers_OscarGonzalez.csv
+Ramphomicron microrhynchum;0.014472993;0;78_MatricesNoRobbers_OscarGonzalez.csv
+Cynanthus latirostris;0.334863314;0.882352941;79_patinho.bosque.csv
+Amazilia violiceps;0.31667571;0.117647059;79_patinho.bosque.csv
+Calothorax lucifer;0.076634102;0;79_patinho.bosque.csv
+Atthis heloisa;0.019201319;0;79_patinho.bosque.csv
+Basilinna leucotis;0.014194364;0;79_patinho.bosque.csv
+Eugenes fulgens;0.060201021;0;79_patinho.bosque.csv
+Lampornis clemenciae;0.040362985;0;79_patinho.bosque.csv
+Cynanthus latirostris;0.334653057;1;80_patinho.matorral.csv
+Amazilia violiceps;0.187488457;0;80_patinho.matorral.csv
+Calothorax lucifer;0.163474782;0;80_patinho.matorral.csv
+Atthis heloisa;0.046072871;0;80_patinho.matorral.csv
+Basilinna leucotis;0.16769025;0;80_patinho.matorral.csv
+Eugenes fulgens;0.029800797;0;80_patinho.matorral.csv
+Aglaiocercus coelestis;0.043348425;0;81_weinetein low.csv
+Amazilia franciae;0.04776;0;81_weinetein low.csv
+Amazilia tzacatl;0.006858309;0;81_weinetein low.csv
+Coeligena torquata;0.006898884;0;81_weinetein low.csv
+Coeligena wilsoni;0.072217438;0.085106383;81_weinetein low.csv
+Florisuga mellivora;0.003566201;0;81_weinetein low.csv
+Heliodoxa jacula;0.006615809;0;81_weinetein low.csv
+Ocreatus underwoodii;0.107673738;0.007092199;81_weinetein low.csv
+Phaethornis striigularis;0.134508582;0.411347518;81_weinetein low.csv
+Phaethornis syrmatophorus;0.10551307;0.141843972;81_weinetein low.csv
+Phaethornis yaruqui;0.12075247;0.354609929;81_weinetein low.csv
+Schistes albogularis;0.030551104;0;81_weinetein low.csv
+Thalurania colombica;0.063099616;0;81_weinetein low.csv
+Urosticte benjamini;0.036136351;0;81_weinetein low.csv
+Heliangelus strophianus;0.034086063;0;82_weinstein high.csv
+Adelomyia melanogenys;0.034566713;0;82_weinstein high.csv
+Aglaiocercus coelestis;0.045675556;0.580046404;82_weinstein high.csv
+Coeligena torquata;0.035623273;0.041763341;82_weinstein high.csv
+Coeligena wilsoni;0.040839368;0.081206497;82_weinstein high.csv
+Phaethornis syrmatophorus;0.041941538;0.07424594;82_weinstein high.csv
+Heliodoxa jacula;0.00999919;0;82_weinstein high.csv
+Doryfera ludovicae;0.027797058;0;82_weinstein high.csv
+Boissonneaua flavescens;0.023180476;0;82_weinstein high.csv
+Ocreatus underwoodii;0.032282601;0.222737819;82_weinstein high.csv
+Heliodoxa rubinoides;0.019373265;0;82_weinstein high.csv
+Colibri coruscans;0.011255989;0;82_weinstein high.csv
+Urosticte benjamini;0.006455068;0;82_weinstein high.csv
+Florisuga mellivora;0.001287061;0;82_weinstein high.csv
+Phaethornis striigularis;0.002500443;0;82_weinstein high.csv
+Heliodoxa imperatrix;0.003663299;0;82_weinstein high.csv
+Amazilia franciae;0.001284359;0;82_weinstein high.csv
+Schistes albogularis;0.006799504;0;82_weinstein high.csv
+Haplophaedia lugens;0.010368705;0;82_weinstein high.csv
+Phaethornis yaruqui;0.001288651;0;82_weinstein high.csv
+Adelomyia melanogenys;0.079382461;0.06993007;83_Cloud forest Oscar Marin.csv
+Aglaiocercus kingii;0.094908072;0.230769231;83_Cloud forest Oscar Marin.csv
+Chaetocercus mulsant;0.050961185;0;83_Cloud forest Oscar Marin.csv
+Coeligena coeligena;0.092608884;0.363636364;83_Cloud forest Oscar Marin.csv
+Coeligena torquata;0.07481546;0.167832168;83_Cloud forest Oscar Marin.csv
+Colibri cyanotus;0.060042713;0;83_Cloud forest Oscar Marin.csv
+Colibri coruscans;0.035446555;0;83_Cloud forest Oscar Marin.csv
+Doryfera ludovicae;0.019348014;0;83_Cloud forest Oscar Marin.csv
+Eutoxeres aquila;0.01877391;0;83_Cloud forest Oscar Marin.csv
+Haplophaedia aureliae;0.067174812;0;83_Cloud forest Oscar Marin.csv
+Heliangelus exortis;0.069131817;0.006993007;83_Cloud forest Oscar Marin.csv
+Heliodoxa rubinoides;0.019302961;0;83_Cloud forest Oscar Marin.csv
+Lafresnaya lafresnayi;0.022664059;0;83_Cloud forest Oscar Marin.csv
+Ocreatus underwoodii;0.067453977;0;83_Cloud forest Oscar Marin.csv
+Phaethornis syrmatophorus;0.061489483;0.160839161;83_Cloud forest Oscar Marin.csv
+Amazilia saucerottei;0.067590677;0;84_Oscar Marin premontane forest.csv
+Amazilia tzacatl;0.093776926;0;84_Oscar Marin premontane forest.csv
+Anthracothorax nigricollis;0.085251084;0.120689655;84_Oscar Marin premontane forest.csv
+Chalybura buffonii;0.031694795;0;84_Oscar Marin premontane forest.csv
+Florisuga mellivora;0.103216601;0.568965517;84_Oscar Marin premontane forest.csv
+Glaucis hirsutus;0.06057648;0;84_Oscar Marin premontane forest.csv
+Heliomaster longirostris;0.139527867;0;84_Oscar Marin premontane forest.csv
+Phaethornis guy;0.09896518;0.189655172;84_Oscar Marin premontane forest.csv
+Phaethornis striigularis;0.107355942;0.120689655;84_Oscar Marin premontane forest.csv
+Thalurania colombica;0.063029043;0;84_Oscar Marin premontane forest.csv
+Anthracothorax nigricollis;0.023755632;0;85_najara_rech.csv
+Augastes scutatus;0.301064219;0.755555556;85_najara_rech.csv
+Calliphlox amethystina;0.061863824;0;85_najara_rech.csv
+Campylopterus calcirupicola;0.03903798;0;85_najara_rech.csv
+Chlorostilbon lucidus;0.049946515;0;85_najara_rech.csv
+Colibri serrirostris;0.086221048;0.244444444;85_najara_rech.csv
+Eupetomena macroura;0.176737462;0;85_najara_rech.csv
+Phaethornis pretrei;0.079985036;0;85_najara_rech.csv
+Thalurania furcata;0.06639409;0;85_najara_rech.csv
+Amazilia fimbriata;0.077853096;0.736486486;86_Edvaldo.csv
+Amazilia versicolor;0.066026872;0.040540541;86_Edvaldo.csv
+Amazilia lactea;0.007434434;0;86_Edvaldo.csv
+Aphantochroa cirrochloris;0.004821388;0;86_Edvaldo.csv
+Anthracothorax nigricollis;0.00596463;0;86_Edvaldo.csv
+Chlorostilbon lucidus;0.069282628;0.209459459;86_Edvaldo.csv
+Colibri serrirostris;0.010754735;0;86_Edvaldo.csv
+Calliphlox amethystina;0.019782831;0;86_Edvaldo.csv
+Eupetomena macroura;0.048093295;0;86_Edvaldo.csv
+Florisuga fusca;0.056540291;0;86_Edvaldo.csv
+Hylocharis chrysura;0.037349352;0;86_Edvaldo.csv
+Heliomaster squamosus;0.001985761;0;86_Edvaldo.csv
+Leucochloris albicollis;0.015783625;0;86_Edvaldo.csv
+Phaethornis pretrei;0.060564856;0;86_Edvaldo.csv
+Polytmus guainumbi;0.004804773;0;86_Edvaldo.csv
+Thalurania glaucopis;0.057639594;0.013513514;86_Edvaldo.csv
+Amazilia candida;0.275863004;0.714285714;87_El Triunfo low.csv
+Amazilia rutila;0.055263629;0;87_El Triunfo low.csv
+Anthracothorax prevostii;0.119069462;0.285714286;87_El Triunfo low.csv
+Heliomaster constantii;0.020955913;0;87_El Triunfo low.csv
+Hylocharis eliciae;0.06816398;0;87_El Triunfo low.csv
+Amazilia beryllina;0.207283712;0;87_El Triunfo low.csv
+Abeillia abeillei;0.010715381;0;88_El Triunfo middle.csv
+Amazilia candida;0.039174421;0;88_El Triunfo middle.csv
+Amazilia rutila;0.01745956;0;88_El Triunfo middle.csv
+Atthis ellioti;0.013281494;0;88_El Triunfo middle.csv
+Campylopterus hemileucurus;0.043398725;0.171875;88_El Triunfo middle.csv
+Campylopterus rufus;0.033700939;0;88_El Triunfo middle.csv
+Heliomaster constantii;NA;0;88_El Triunfo middle.csv
+Lampornis viridipallens;0.061968347;0.3125;88_El Triunfo middle.csv
+Amazilia beryllina;0.047339978;0.515625;88_El Triunfo middle.csv
+Tilmatura dupontii;0.025823844;0;88_El Triunfo middle.csv
+Abeillia abeillei;0.005337154;0;89_El Triunfo high.csv
+Atthis ellioti;0.00469403;0;89_El Triunfo high.csv
+Campylopterus hemileucurus;0.108287047;0.184615385;89_El Triunfo high.csv
+Campylopterus rufus;0.034305927;0;89_El Triunfo high.csv
+Lampornis amethystinus;0.017019075;0;89_El Triunfo high.csv
+Lampornis viridipallens;0.031271201;0.707692308;89_El Triunfo high.csv
+Lamprolaima rhami;0.029015818;0.107692308;89_El Triunfo high.csv
+Amazilia beryllina;0.008407665;0;89_El Triunfo high.csv
+Tilmatura dupontii;0.013614063;0;89_El Triunfo high.csv
+Basilinna leucotis;0.147987532;0;90_Huitepec.csv
+Lampornis amethystinus;0.241863712;1;90_Huitepec.csv
+Lamprolaima rhami;0.178343949;0;90_Huitepec.csv
+Eugenes fulgens;0.611464968;0;90_Huitepec.csv
+Phaethornis ruber;0.067826937;0.018867925;91_Buzato_caragua.csv
+Phaethornis eurynome;0.012869366;0;91_Buzato_caragua.csv
+Ramphodon naevius;0.067189911;0;91_Buzato_caragua.csv
+Amazilia fimbriata;0.063802843;0;91_Buzato_caragua.csv
+Anthracothorax nigricollis;0.058610251;0;91_Buzato_caragua.csv
+Aphantochroa cirrochloris;0.022612144;0;91_Buzato_caragua.csv
+Hylocharis cyanus;0.02742908;0;91_Buzato_caragua.csv
+Lophornis chalybeus;0.012431589;0;91_Buzato_caragua.csv
+Florisuga fusca;0.08046142;0;91_Buzato_caragua.csv
+Thalurania glaucopis;0.077416655;0.981132075;91_Buzato_caragua.csv
+Eupetomena macroura;0.022612144;0;91_Buzato_caragua.csv
+Phaethornis eurynome;0.154935777;0.466666667;92_Buzato_cunha.csv
+Calliphlox amethystina;0.024953073;0;92_Buzato_cunha.csv
+Clytolaema rubricauda;0.216279475;0;92_Buzato_cunha.csv
+Leucochloris albicollis;0.14163546;0;92_Buzato_cunha.csv
+Thalurania furcata;0.019832205;0;92_Buzato_cunha.csv
+Stephanoxis lalandi;0.136303134;0.533333333;92_Buzato_cunha.csv
+Amazilia fimbriata;NA;NA;92_Buzato_cunha.csv
