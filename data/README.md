@@ -11,8 +11,9 @@ Sp_clim.RData: a named list of 356 data.frames (i.e. one for each extant humming
 
 **Species-level centrality measures:** data frame listing names, geographical coordinates, and biogeographical region for each hummingbird-plant community. Cross-referenced with the network dataset published in Dalsgaard et al. (2021)
 
-**References**
-B. Dalsgaard et al., The influence of biogeographical and evolutionary histories on morphological trait-matching and resource specialization in mutualistic hummingbird-plant networks. Functional Ecology (2021). https://doi.org/10.1111/1365-2435.13784.
-D. N. Karger et al., Climatologies at high resolution for the earth’s land surface areas. Scientific Data 4, 170122 (2017). http://dx.doi.org/doi:10.5061/dryad.kd1d4
+### References
+**B. Dalsgaard et al.,** The influence of biogeographical and evolutionary histories on morphological trait-matching and resource specialization in mutualistic hummingbird-plant networks. Functional Ecology (2021). https://doi.org/10.1111/1365-2435.13784.
+
+**D. N. Karger et al.,** Climatologies at high resolution for the earth’s land surface areas. Scientific Data 4, 170122 (2017). http://dx.doi.org/doi:10.5061/dryad.kd1d4
 
 
