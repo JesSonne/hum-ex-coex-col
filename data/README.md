@@ -9,7 +9,9 @@ Sp_clim.RData: a named list of 356 data.frames (i.e. one for each extant humming
 
 **source_pool_list_100km.RData**: a named list of 84 character strings (i.e. one for each hummingbird-plant community). Each character string lists the hummingbird species occurring within a 100 km radius surrounding a focal network.
 
-**Species-level centrality measures:** data frame listing names, geographical coordinates, and biogeographical region for each hummingbird-plant community. Cross-referenced with the network dataset published in Dalsgaard et al. (2021)
+**Community data:**: data frame listing names, geographical coordinates, and biogeographical region for each hummingbird-plant community. Cross-referenced with the network dataset published in Dalsgaard et al. (2021)
+
+**Species-level generalism:**: data frame listing measures of generalism (i.e. the number of effective partners and species strength) for each hummingbird species in each network
 
 ### References
 **B. Dalsgaard et al.,** The influence of biogeographical and evolutionary histories on morphological trait-matching and resource specialization in mutualistic hummingbird-plant networks. Functional Ecology (2021). https://doi.org/10.1111/1365-2435.13784.
