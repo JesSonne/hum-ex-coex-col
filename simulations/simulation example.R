@@ -2,10 +2,10 @@ require(terra)
 
 #download the network data from Dalsgaard et el (2021)
 #B. Dalsgaard et al., The influence of biogeographical and evolutionary histories on morphological trait-matching and resource specialization in mutualistic hummingbird-plant networks. Functional Ecology (2021). https://doi.org/10.1111/1365-2435.13784.
-path="/Users/jespersonne/Downloads/doi_10.5061_dryad.rr4xgxd7n__v3-2 2"
+path="...Downloads/doi_10.5061_dryad.rr4xgxd7n__v3-2 2"
 
 # set working directory to the github folder
-setwd("/Users/jespersonne/Downloads/hum-ex-coex-col-main 3")
+setwd("...Downloads/hum-ex-coex-col-main 3")
 
 #ids of central American networks in the database
 C_Am_nets=c(4 , 5 , 6,  7 , 8,  9, 10, 11, 12, 21, 22, 23, 24, 25, 79, 80, 87, 88, 89, 90)
