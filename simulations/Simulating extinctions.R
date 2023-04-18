@@ -36,7 +36,7 @@ coex_model=function(net_nam,n_reps=500,network_folder="...network_folder"){
   com_cor=dat[which(dat$Network.ID.in.database ==net_id),c("Longitude","Latitude")]
   
   #removing temperate migrants from Central American networks
-  if(paste(net_nam) %in% C_Am_nets){
+  if(paste(net_id) %in% C_Am_nets){
     if(T %in% (as.character(sub$name) %in% migra)){
       ppr=which(sub$name %in% migra)
       Network=Network[,-ppr]
