@@ -18,42 +18,35 @@ eu_dist=function(x1,x2,y1,y2){
 z_to_prob=function(z){pnorm(z,lower.tail = T)-pnorm(z,lower.tail = F)}
 
 range01 <- function(x){(x-min(x,na.rm=T))/(max(x,na.rm=T)-min(x,na.rm=T))}
-
-col_model=function(net_nam,n_reps=500,buff=10){
-   if(buff==10){load("source_pool_list_10km.RData")
+col_model=function(net_nam,n_reps=500,network_folder="...network_folder",buff=10){
+  if(buff==10){load("data/source_pool_list_10km.RData")
     source_pool_list=source_pool_list_10km}
-  if(buff==100){load("source_pool_list_100km.RData")
+  if(buff==100){load("data/source_pool_list_100km.RData")
     source_pool_list=source_pool_list_100km
-    }
-   
-  path=paste0(getwd(),"/nets/",net_nam)
+  }
   
-  res_col_total=data.frame(net=net_nam,ex=NA,co_ex=NA,co_exr=NA,col_net=NA,col_reg=NA)
+  net_id=as.numeric(strsplit(net_nam,"_")[[1]][[1]])
+  
+  res_ex_coex=data.frame(net=net_nam,ex=NA,co_ex=NA,co_exr=NA,col=NA)
   
   #loading network
-  Network = read.csv(path,row.names = 1,h=T,sep=";")
+  Network = read.csv(paste0(network_folder,"/",net_nam),row.names = 1,h=T,sep=";")
   colnames(Network)=gsub("\\."," ", colnames(Network))
-  Network=Network[,which(colnames(Network) %in% names(shp))] # removing species that are not in the polygons
   Network=Network[,complete.cases(t(Network))]
   Network=Network[rowSums(Network)>0,]
   
-  
-  
-  #substitute names with 
-  sub=subset(sp_nam,sp_nam$file==net_nam)
-  sub=subset(sub,sub$name %in% names(shp))
-  
+  #hummingbird species in the network
+  hum_sp=colnames(Network)
   
   #community clim
-  com_cor=dat[which(dat$file ==net_nam),c("Longitude","Latitude")]
+  com_cor=dat[which(dat$Network.ID.in.database ==net_id),c("Longitude","Latitude")]
   
-  
-  #removing migrants from temperate North America
-  if(paste(net_nam) %in% cas){
-    if(T %in% (as.character(sub$name) %in% migra)){
-      ppr=which(sub$name %in% migra)
+  #removing temperate migrants from Central American networks
+  if(paste(net_nam) %in% C_Am_nets){
+    if(T %in% (as.character(hum_sp) %in% migra)){
+      ppr=which(hum_sp %in% migra)
       Network=Network[,-ppr]
-      sub=sub[-ppr,]
+      hum_sp=hum_sp[-ppr]
       
       ppr1=which(rowSums( Network)==0)
       if(length(ppr1>0)){ Network=Network[-ppr1,]}
@@ -62,24 +55,33 @@ col_model=function(net_nam,n_reps=500,buff=10){
   
   
   # determining source pool
-  ft=which(names(source_pool_list)==net_nam)
+  sp_names=strsplit(names(source_pool_list),"_")
+  sp_names=as.numeric(unlist(lapply(sp_names,"[[",1)))
+  
+  ft=which(sp_names==net_id)
   sp=source_pool_list[[ft]]
   
   #determining species-level colonization rate
   col_rate=rep(NA,length(sp))
   for(y in 1:length(sp)){
     foc_sp=as.character(sp[y])
-    sp_shp=names(shp)[which(names(shp)==foc_sp)]
+    sp_shp=names(sp_clim)[which(names(sp_clim)==foc_sp)]
     
     pos=which(names(sp_clim)==sp_shp)
     cont=sp_clim[[pos]]
-
+    
     
     if(nrow(cont)>10){
       cc_PCA=cont
       
-      obs_PCA1_fut=(extract(fut_ras[[1]],com_cor)-mean(cc_PCA[,1],na.rm=T))/sd(cc_PCA[,1],na.rm=T)
-      obs_PCA2_fut=(extract(fut_ras[[2]],com_cor)-mean(cc_PCA[,2],na.rm=T))/sd(cc_PCA[,2],na.rm=T)
+      
+      fut_clim=data.frame(extract(fut_ras,com_cor))[,-1]
+      colnames(fut_clim)=c("bio1","bio4","bio12","bio15")
+      pred <- predict(pca, newdata=fut_clim)[,c(1:2)] # predicting future data using the contemporary climates' principal componants 
+      
+      
+      obs_PCA1_fut=(pred[1]-mean(cc_PCA[,1]))/sd(cc_PCA[,1])
+      obs_PCA2_fut=(pred[2]-mean(cc_PCA[,2]))/sd(cc_PCA[,2])
       
       cc_PCA1=decostand(cc_PCA[,1],"standardize")
       cc_PCA2=decostand(cc_PCA[,2],"standardize")
@@ -109,6 +111,7 @@ col_model=function(net_nam,n_reps=500,buff=10){
     
   }
   
+  res_col_total=data.frame(net=net_nam,col_net=NA,col_reg=NA)
   res_col_total$col_net[1]=mean(res_col_net)
   res_col_total$col_reg[1]=mean(res_col_reg)
   

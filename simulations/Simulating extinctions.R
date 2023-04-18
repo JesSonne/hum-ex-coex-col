@@ -3,7 +3,6 @@ library(reshape2)
 library(vegan)
 library(MASS)
 library(sf)
-library(terra)
 
 z_score=function(x,pop){abs(x-mean(pop,na.rm=T))/sd(pop,na.rm=T)}
 
@@ -18,16 +17,14 @@ eu_dist=function(x1,x2,y1,y2){
 z_to_prob=function(z){pnorm(z,lower.tail = T)-pnorm(z,lower.tail = F)}
 
 range01 <- function(x){(x-min(x,na.rm=T))/(max(x,na.rm=T)-min(x,na.rm=T))}
-
-coex_model=function(net_nam,n_reps=500){
+coex_model=function(net_nam,n_reps=500,network_folder="...network_folder"){
   
-  #path=paste0(getwd(),"/nets/",net_nam)
   net_id=as.numeric(strsplit(net_nam,"_")[[1]][[1]])
   
   res_ex_coex=data.frame(net=net_nam,ex=NA,co_ex=NA,co_exr=NA,col=NA)
   
   #loading network
-  Network = read.csv(net_nam,row.names = 1,h=T,sep=";")
+  Network = read.csv(paste0(network_folder,"/",net_nam),row.names = 1,h=T,sep=";")
   colnames(Network)=gsub("\\."," ", colnames(Network))
   Network=Network[,complete.cases(t(Network))]
   Network=Network[rowSums(Network)>0,]
