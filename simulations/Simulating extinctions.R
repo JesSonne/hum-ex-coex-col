@@ -3,6 +3,7 @@ library(reshape2)
 library(vegan)
 library(MASS)
 library(sf)
+library(terra)
 
 z_score=function(x,pop){abs(x-mean(pop,na.rm=T))/sd(pop,na.rm=T)}
 
@@ -19,29 +20,26 @@ z_to_prob=function(z){pnorm(z,lower.tail = T)-pnorm(z,lower.tail = F)}
 range01 <- function(x){(x-min(x,na.rm=T))/(max(x,na.rm=T)-min(x,na.rm=T))}
 
 coex_model=function(net_nam,n_reps=500){
-  path=paste0(getwd(),"/nets/",net_nam)
+  
+  #path=paste0(getwd(),"/nets/",net_nam)
+  net_id=as.numeric(strsplit(net_nam,"_")[[1]][[1]])
   
   res_ex_coex=data.frame(net=net_nam,ex=NA,co_ex=NA,co_exr=NA,col=NA)
   
   #loading network
-  Network = read.csv(path,row.names = 1,h=T,sep=";")
+  Network = read.csv(net_nam,row.names = 1,h=T,sep=";")
   colnames(Network)=gsub("\\."," ", colnames(Network))
-  Network=Network[,which(colnames(Network) %in% names(shp))] # removing species that are not in the polygons
   Network=Network[,complete.cases(t(Network))]
   Network=Network[rowSums(Network)>0,]
   
-  
-  
-  #substitute names with 
-  sub=subset(sp_nam,sp_nam$file==net_nam)
-  sub=subset(sub,sub$name %in% names(shp))
-  
+  #hummingbird species in the network
+  hum_sp=colnames(Network)
   
   #community clim
-  com_cor=dat[which(dat$file ==net_nam),c("Longitude","Latitude")]
+  com_cor=dat[which(dat$Network.ID.in.database ==net_id),c("Longitude","Latitude")]
   
-  #removing migrants from temperate North America
-  if(paste(net_nam) %in% cas){
+  #removing temperate migrants from Central American networks
+  if(paste(net_nam) %in% C_Am_nets){
     if(T %in% (as.character(sub$name) %in% migra)){
       ppr=which(sub$name %in% migra)
       Network=Network[,-ppr]
@@ -54,42 +52,46 @@ coex_model=function(net_nam,n_reps=500){
   
   
   # calculating climate-driven extinction risk
-  survivability=rep(NA,nrow(sub))
-  clim_impact=rep(NA,nrow(sub))
-  for(y in 1:nrow(sub)){
-    foc_sp=as.character(sub$name[y])
-  
+  survivability=rep(NA,length(hum_sp))
+  clim_impact=rep(NA,length(hum_sp))
+  for(y in 1:length(hum_sp)){
+    foc_sp=as.character(hum_sp[y])
     sp_shp=which(names(sp_clim)==foc_sp)
     
     cont=sp_clim[[sp_shp]]
     
-      if(nrow(cont)>10){
-        cc_PCA=cont
-        
-        
-        obs_PCA1=(extract(clim_PCA1_reg,com_cor)-mean(cc_PCA[,1]))/sd(cc_PCA[,1])
-        obs_PCA2=(extract(clim_PCA2_reg,com_cor)-mean(cc_PCA[,2]))/sd(cc_PCA[,2])
-        
-        obs_PCA1_fut=(extract(fut_ras[[1]],com_cor)-mean(cc_PCA[,1]))/sd(cc_PCA[,1])
-        obs_PCA2_fut=(extract(fut_ras[[2]],com_cor)-mean(cc_PCA[,2]))/sd(cc_PCA[,2])
-        
-        cc_PCA1=decostand(cc_PCA[,1],"standardize")
-        cc_PCA2=decostand(cc_PCA[,2],"standardize")
-        
-        
-        obs_dist=sqrt(z_score(obs_PCA1,cc_PCA1)^2+z_score(obs_PCA2,cc_PCA2)^2)
-        fut_dist=sqrt(z_score(obs_PCA1_fut,cc_PCA1)^2+z_score(obs_PCA2_fut,cc_PCA2)^2)
-        
-        clim_dist=(fut_dist-obs_dist)
-        
-        clim_impact[y]=z_to_prob(clim_dist)*z_to_prob(fut_dist)
-        survivability[y]=z_to_prob(fut_dist)   
-
-        if(fut_dist-obs_dist<0){clim_impact[y]=0;survivability[y]=1}
-        
-      }else {clim_impact[y]=0;survivability[y]=1}
+    if(nrow(cont)>10){
+      cc_PCA=cont
       
- 
+      obs_PCA1=(extract(clim_PCA1_reg,com_cor)[,2]-mean(cc_PCA[,1]))/sd(cc_PCA[,1])
+      obs_PCA2=(extract(clim_PCA2_reg,com_cor)[,2]-mean(cc_PCA[,2]))/sd(cc_PCA[,2])
+      
+      
+      fut_clim=data.frame(extract(fut_ras,com_cor))[,-1]
+      colnames(fut_clim)=c("bio1","bio4","bio12","bio15")
+      pred <- predict(pca, newdata=fut_clim)[,c(1:2)] # predicting future data using the contemporary climates' principal componants 
+      
+      
+      obs_PCA1_fut=(pred[1]-mean(cc_PCA[,1]))/sd(cc_PCA[,1])
+      obs_PCA2_fut=(pred[2]-mean(cc_PCA[,2]))/sd(cc_PCA[,2])
+      
+      cc_PCA1=decostand(cc_PCA[,1],"standardize")
+      cc_PCA2=decostand(cc_PCA[,2],"standardize")
+      
+      
+      obs_dist=sqrt(z_score(obs_PCA1,cc_PCA1)^2+z_score(obs_PCA2,cc_PCA2)^2)
+      fut_dist=sqrt(z_score(obs_PCA1_fut,cc_PCA1)^2+z_score(obs_PCA2_fut,cc_PCA2)^2)
+      
+      clim_dist=(fut_dist-obs_dist)
+      
+      clim_impact[y]=z_to_prob(clim_dist)*z_to_prob(fut_dist)
+      survivability[y]=z_to_prob(fut_dist)   
+      
+      if(fut_dist-obs_dist<0){clim_impact[y]=0;survivability[y]=1}
+      
+    }else {clim_impact[y]=0;survivability[y]=1}
+    
+    
     
     
     
@@ -100,25 +102,25 @@ coex_model=function(net_nam,n_reps=500){
   } # end y
   
   
-# begin extinction
+  # begin extinction
   res_coex=rep(NA,n_reps)
   clim_res=rep(NA,n_reps)
-    
+  
   for(x in 1:n_reps){
     
-    ex=rep(0,nrow(sub))
-    for(u in 1:nrow(sub)){
+    ex=rep(0,length(hum_sp))
+    for(u in 1:length(hum_sp)){
       ex[u]=sample(c(1,0),size = 1, prob = c(clim_impact[u],1-clim_impact[u]))
       
     } # end u
-     
+    
     
     
     
     net=Network
     orig_net=Network
     
-    clim_res[x]=sum(ex)/nrow(sub) # proportion of climate-driven extinctions
+    clim_res[x]=sum(ex)/length(hum_sp) # proportion of climate-driven extinctions
     
     #clim_res[x]=sum(ex)
     
@@ -178,8 +180,8 @@ coex_model=function(net_nam,n_reps=500){
       
     }
     
-      res_coex[x]=length(which(colSums(net)==0))/nrow(sub)  # proportion of climate-driven extinctions + coextinctions
- 
+    res_coex[x]=length(which(colSums(net)==0))/length(hum_sp)  # proportion of climate-driven extinctions + coextinctions
+    
     
     
     
@@ -190,7 +192,7 @@ coex_model=function(net_nam,n_reps=500){
   output[[1]]=clim_res
   output[[2]]=res_coex
   
-    
+  
   return(output)
   #print(i)
   
