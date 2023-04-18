@@ -13,6 +13,8 @@ Sp_clim.RData: a named list of 356 data.frames (i.e. one for each extant humming
 
 **Species-level generalism:**: data frame listing measures of generalism (i.e. the number of effective partners and species strength) for each hummingbird species in each network
 
+**clim_PCA1_reg & clim_PCA2_reg:**: Spatial rasters containing the first two principal components axes determined based on the contemporary climate data
+
 ### References
 **B. Dalsgaard et al.,** The influence of biogeographical and evolutionary histories on morphological trait-matching and resource specialization in mutualistic hummingbird-plant networks. Functional Ecology (2021). https://doi.org/10.1111/1365-2435.13784.
 
